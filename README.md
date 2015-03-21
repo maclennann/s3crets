@@ -19,7 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install s3crets
+    $ gem install aws-s3crets
 
 ## Usage
 
