@@ -9,4 +9,4 @@ deploy:
     tags: true
     all_branches: true
   api_key:
-    secure: hOaHuMk5/lcedaCiP/GkICXy+tNS6uHrrkizoFn4Tv5GhWoAao77e4FWuZh9KNSAmiZIQwPa1z5b9kn8Rq2UE0QjrxBYmDFFp5uM4fDl7xzqPXREfZcBNmrjMFUhXSRnyZnm4rC69lGRQKTSJkHZDAUZfWobFMnouMtRyoDSCbU=
+    secure: crwL3RJgh7X9hJK3+3gJQ3ucn9uJjJNytEGqgmnVHvAw2WNcg3oHLnro/529wfMc961ZtwMSQ75Zc4jAeDLlxR6AdMTrUJ7SOmvaIkrvmJCUaadu3C8JXY/EoIx/8tJ4V+4u5hkDvcZUoZ9g9kI68r1NtBopJMaSCgrBbYCoCZA=
