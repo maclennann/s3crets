@@ -10,3 +10,7 @@ deploy:
     all_branches: true
   api_key:
     secure: crwL3RJgh7X9hJK3+3gJQ3ucn9uJjJNytEGqgmnVHvAw2WNcg3oHLnro/529wfMc961ZtwMSQ75Zc4jAeDLlxR6AdMTrUJ7SOmvaIkrvmJCUaadu3C8JXY/EoIx/8tJ4V+4u5hkDvcZUoZ9g9kI68r1NtBopJMaSCgrBbYCoCZA=
+addons:
+  code_climate:
+    repo_token:
+      secure: VEkZMvbAusvOuQGrbYXpA2YFm6PXa5pteZ7Fa1JYqfKZOP1M2R2feFO4cPhLaOlcW1hgWgXN1mZZpBNNpEG3eNZU+MdkC8TuRYI/Ok05lCcyQMy3Vrl/89WfqNN+bZdF4U6sXLU5PjOzf18RQFT9/YcMXZ1PkC2/imV/rr9BV8M=

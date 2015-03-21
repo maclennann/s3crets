@@ -24,7 +24,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.2'
   spec.add_development_dependency 'fakefs', '~> 0.6'
   spec.add_development_dependency 'gem-path', '~> 0.6'
-
+  spec.add_development_dependency 'codeclimate-test-reporter'
+  
   spec.add_dependency 'aws-sdk', '~> 2.0'
   spec.add_dependency 'thor'
 end
