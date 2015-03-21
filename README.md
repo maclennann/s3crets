@@ -10,7 +10,7 @@ etc) from an S3 bucket via the command-line, rake, or ruby script.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 's3crets'
+gem 'aws-s3crets'
 ```
 
 And then execute:

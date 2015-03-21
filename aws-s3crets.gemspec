@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 's3crets/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 's3crets'
+  spec.name          = 'aws-s3crets'
   spec.version       = S3crets::VERSION
   spec.authors       = ['Norm MacLennan']
   spec.email         = ['norm.maclennan@gmail.com']
