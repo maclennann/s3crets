@@ -1,0 +1,11 @@
+# Configuration parameters: AllowURI, URISchemes.
+Metrics/LineLength:
+  Max: 110
+
+# Offense count: 2
+Style/Documentation:
+  Enabled: false
+
+# Offense count: 2
+Style/RegexpLiteral:
+  MaxSlashes: 0

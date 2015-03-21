@@ -1,0 +1,4 @@
+#! ruby
+require 's3crets/cli'
+
+S3crets::Cli.start(ARGV)
