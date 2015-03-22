@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/maclennann/s3crets.svg?branch=master)](https://travis-ci.org/maclennann/s3crets)
 [![Code Climate](https://codeclimate.com/github/maclennann/s3crets/badges/gpa.svg)](https://codeclimate.com/github/maclennann/s3crets)
+[![Test Coverage](https://codeclimate.com/github/maclennann/s3crets/badges/coverage.svg)](https://codeclimate.com/github/maclennann/s3crets)
 
 `s3crets` is a gem that allows you to fetch secret files (password, certs, keys,
 etc) from an S3 bucket via the command-line, rake, or ruby script.
