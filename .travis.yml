@@ -1,8 +1,7 @@
 language: ruby
 sudo: false
 rvm:
-- 2.1.0
-- 2.0.0
+  - 2.1.0
 deploy:
   provider: rubygems
   gem: aws-s3crets
