@@ -19,6 +19,19 @@ describe S3crets::Cli do
         expect(File.read S3crets::SECRETFILE_NAME).to match(/Fill in secrets/)
       end
 
+      it 'should generate a .gitignore' do
+        expect(FakeFS::FileTest.file? '.gitignore').to be(false)
+        subject.init
+        expect(FakeFS::FileTest.file? '.gitignore').to be(true)
+      end
+
+      it 'should respect existing .gitignores' do
+        File.write('.gitignore', '*')
+        expect(FakeFS::FileTest.file? '.gitignore').to be(true)
+        subject.init
+        expect(File.read '.gitignore').to eq('*')
+      end
+
       it 'should accept settings as options' do
         subject.options = { 'region' => 'us-east-1',
                             'bucket' => 'an_example_bucket',

@@ -35,6 +35,8 @@ module S3crets
                      desc: 'The S3 bucket to connect to.'
     option 'region', type: :string, aliases: :r, default: 'us-west-2',
                      desc: 'The AWS region to use.'
+    option 'noignore', type: :boolean, default: false, aliases: :i,
+                       desc: "Don't write a .gitignore to the current directory."
     option 'credential_file', type: :string, aliases: :f,
                               default: '~/.aws/credential',
                               desc: 'The AWS credential file'
