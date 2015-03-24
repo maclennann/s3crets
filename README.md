@@ -56,7 +56,7 @@ It will download these secrets to `secrets/dev/[filename]`.
 ### Fetching Secrets
 
 Once you have your `Secretfile` ready, there are two ways you can actually fetch
-the secrets. Both ways, assume you have you [AWS credentials set up](http://docs.aws.amazon.com/sdkforruby/api/#Credentials).
+the secrets. Both ways, assume you have your [AWS credentials set up](http://docs.aws.amazon.com/sdkforruby/api/#Credentials).
 
 #### Command Line
 
