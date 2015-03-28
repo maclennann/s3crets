@@ -103,6 +103,8 @@ If you have a file locally that doesn't match the hash in your `resolved` file,
 it will be redownloaded the next time you fetch secrets. Then the resolved file
 will be updated.
 
+It may or may not be checked into source control - it doesn't matter much either way.
+
 ## Contributing
 
 1. Fork it ( https://github.com/maclennann/s3crets/fork )
@@ -110,3 +112,4 @@ will be updated.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+6. 
